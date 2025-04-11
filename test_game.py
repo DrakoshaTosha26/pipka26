@@ -2,7 +2,6 @@ import unittest
 import math
 from unittest.mock import MagicMock
 
-# Импортируем классы из вашего кода
 class Snake:
     def __init__(self, x, y, color):
         self.body = [(x, y)]
